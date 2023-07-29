@@ -1,0 +1,98 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height:600px;
+  color: white;
+  background-color: black;
+}
+
+.content {
+  height: 600px;
+  background-color:red;
+  position: relative;
+}
+
+.foreground {
+  color: white;
+  position:absolute;
+  bottom: 0px;
+  background-color: darkgreen;
+  height: 150px;
+  width: 100%;
+}
+
+.cloud1 {
+  background-color:gray;
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  top: 50px;
+  left: 100px;
+  border-radius: 50px;
+  box-shadow: 4px 4px lightgray;
+}
+
+.cloud1:before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  border-radius: 30px;
+}
+
+.cloud1:after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  border-radius: 30px;
+}
+
+.cloud2 {
+  background-color: gray;
+  position: absolute;
+  height:80px;
+  width: 140px;
+  top: 60px;
+  left: 500px;
+  border-radius: 50px;
+  box-shadow: 4px 4px lightgray;
+}
+
+.cloud2:before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  border-radius: 30px;
+}
+
+.cloud2:after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  border-radius: 30px;
+}
+
+.cat {
+  border: 1px solid red;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  bottom: 190px;
+  left: 30px;
+  background-image: url('./img/3leggedcat.png')
+}
